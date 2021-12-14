@@ -8,6 +8,16 @@
 		            color:white;
 			    text-align:center;
 		    }
+		    .myimage{
+			    height:100px;
+			    width:90px;
+			    border-radius:50%;
+		            margin-top:20px;
+			    margin-bottom:20px;
+		    }
+		    .myimage:hover{
+			    transform:scale(2.0);
+		    }
 		    .hobby ul,.soft ul{
 			    list-style-type:none;
 		    }
@@ -55,8 +65,14 @@
                 </style>
 	</head>
 	<body>
-		<div class="col-12 col-s-12 header">
-			<h1>Milind Swain</h1>
+
+		<div class="col-12 col-s-12 header" style="display:flex;">
+                       <div style="flex:2">
+			 <img class="myimage" src="IMG_20200118_212321_665.jpg"/>
+		       </div>
+		       <div style="flex:8;align-self:center;">
+			<h1 style="margin-right:24%;">Milind Swain</h1>
+		       </div>
 		</div>
  
 		<div class="col-3 col-s-5" style="border-right:3px solid coral;">
@@ -132,9 +148,9 @@
                                 </div>
 			</div>
                 </div>
-		<div class="soft" style="margin_10px;border-bottom:3px solid coral">
+		<div class="soft" style="margin:10px;border-bottom:3px solid coral">
                         <h3 style="color:coral">Soft Skill</h3>
-			<ul>
+			<ul>i
 				<li>Good Analytic Skill</li>
                                  <li>Confident</li><li>Determined</li><li>Self Motivated</li>
 			</ul>
