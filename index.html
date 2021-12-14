@@ -2,6 +2,10 @@
 	<head>
 		<meta name="viewport" content="width:device-width;initial-scale:1.0;">
 		<style>
+                    body{
+			    background:linear-gradient(to right,darkcyan,lightcyan);
+				    margin:0;
+		    }
 
                     .header{
 			    background-color:darkblue;
@@ -47,8 +51,17 @@
 		     .col-s-10{width:83.33%}
 		     .col-s-11{width:91.66%}
 		     .col-s-12{width:100%}
+		     .col-s-13{width:22%}
 		    }
 		    @media only screen and (min-device-width:768px){
+			    .extra{
+				    width:70%;
+				    height:240%;
+			            margin-left:15%;
+				    background: linear-gradient(to right, green 26%, brown 65%,green 152%);
+
+
+			    }
 			    .col-1{width:8.33%}
 		            .col-2{width:16.66%}
 		            .col-3{width:25%}
@@ -61,12 +74,15 @@
 		            .col-10{width:83.33%}
 		            .col-11{width:91.66%}
 		            .col-12{width:100%}
-		    }
+			    .col-13{width:24%}
+                  }
                 </style>
 	</head>
 	<body>
+	    <div style=i"background-color:blue;">
+               <div class="extra" style="margin-top:9%;">
 
-		<div class="col-12 col-s-12 header" style="display:flex;">
+		<div class="col-12 col-s-12 header" style="display:flex;background:linear-gradient(199deg, green -25%, brown 71%, green 110%);">
                        <div style="flex:2">
 			 <img class="myimage" src="IMG_20200118_212321_665.jpg"/>
 		       </div>
@@ -75,7 +91,7 @@
 		       </div>
 		</div>
  
-		<div class="col-3 col-s-5" style="border-right:3px solid coral;">
+		<div class="col-3 col-s-5" style="border-right:3px solid coral;background: linear-gradient(to right, black 27%, green,brown);color:white;">
 		<div style="border-bottom:3px solid coral;" class="personal_info">
 			<div class="phone" style="display:flex">
 				<div style="flex:1;align-items:center;">
@@ -197,7 +213,7 @@
 
 		
 		</div>
-		<div class="col-6 col-s-3" style="border-right:3px solid coral;">
+		<div class="col-6 col-s-3" style="border-right:3px solid coral;background-color:brown;color:white;">
 
 		<div class="experience" style="margin:10px;border-bottom:3px solid coral;" >
 			<h3 style="color:coral">Work Experience and Project</h3>
@@ -312,17 +328,17 @@ DEATH IN COUPLED OSCILLATORS
                       </div>
 		</div>
 
-		<div class="col-2 col-s-3">
+		<div class="col-13 col-s-3" style="background: linear-gradient(to right, brown, green);color: white;}">
 
-		<div style="border-bottom:3px solid coral;margin:10px" class="education">
+		<div style="border-bottom:3px solid coral;margin:10px;margin-right:0;" class="education">
 			<h3 style="color:coral;">Education</h3>
                         <div class="grad" style="display:flex;text-align:right;margin:15px">
                                 <div style="flex:2;align-items:center;">
                                         Dec 2020:
                                 </div>
                                 <div style="flex:8;text-align:right">
-					Integrated MSc in Physics and Astronomy, NIT, Rourkela<br>
-					Faculty Advisor: Prof. Anant Charan Pradhan<br>
+					Integrated MSc in Physics and<br> Astronomy, NIT, Rourkela<br>
+					Faculty Advisor:<br> Prof. Anant Charan Pradhan<br>
                                 </div>
                         </div>
 
@@ -342,12 +358,14 @@ DEATH IN COUPLED OSCILLATORS
                                         April 2012:
                                 </div>
                                 <div style="flex:8;text-align:right;">
-					MATRICULATION, A S High School, Nuapatna, Cuttack <br> PERCENTAGE: 89.95
+					MATRICULATION, <br>A S High School, Nuapatna, Cuttack <br> PERCENTAGE: 89.95
                                 </div>
                         </div>
                 </div>
 
 		</div>
+	    </div>
+	   </div>
 
 	</body>
 </html>
